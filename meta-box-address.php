@@ -34,7 +34,7 @@ function save_metabox($post_id){
     update_post_meta($post_id, '_societe', sanitize_text_field($_POST['societe']));
   }
   if(isset($_POST['nom'])){
-    update_post_meta($post_id, '_nom', sanitize_text_field($_POST['nom']);
+    update_post_meta($post_id, '_nom', sanitize_text_field($_POST['nom']));
   }
   if(isset($_POST['adresse'])){
     update_post_meta($post_id, '_adresse', esc_textarea($_POST['adresse']));
